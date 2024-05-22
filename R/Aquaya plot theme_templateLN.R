@@ -4,12 +4,14 @@
 
 #-------------------------------SET-UP CHUNK------------------------------------
 {
-  library(extrafont)
-  font_import()
+  # TODO: DPB Test: removing 'library' call from package code must list it as an
+  # TODO: import in "Imports" section of the "DESCRIPTION" file
+  #library(extrafont)
+  extrafont::font_import()
   # Define colors and palettes:
   dark_text <- "#1A242F"
   monochromeR::generate_palette(
-    dark_text, 
+    dark_text,
     "go_lighter",
     n_colours = 5,
     view_palette = TRUE)
@@ -25,12 +27,12 @@
 
 #-------------------------Define function for theme:
 
-theme_Aquaya <- function(base_size = 12, 
+theme_Aquaya <- function(base_size = 12,
                             dark_text = "#1A242F") {
-  
+
   mid_text <-  monochromeR::generate_palette(dark_text, "go_lighter", n_colours = 5)[2]
   light_text <-  monochromeR::generate_palette(dark_text, "go_lighter", n_colours = 5)[3]
-  
+
   theme_minimal(base_size = base_size) +
     theme(text = element_text(colour = mid_text, family = "Arial Narrow", lineheight = 1.1),
           plot.title = element_text(colour = dark_text, family = "Arial Narrow", size = rel(1.6), margin = margin(12, 0, 8, 0)),
