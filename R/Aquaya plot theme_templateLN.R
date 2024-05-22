@@ -5,8 +5,9 @@
 #-------------------------------SET-UP CHUNK------------------------------------
 {
   # TODO: DPB Test: removing 'library' call from package code must list it as an
-  # TODO: import in "Imports" section of the "DESCRIPTION" file
+  # TODO: DPB: import in "Imports" section of the "DESCRIPTION" file
   #library(extrafont)
+  # TODO: DPB: This call takes a long time! Possibly good to avoid if possible?
   extrafont::font_import()
   # Define colors and palettes:
   dark_text <- "#1A242F"
