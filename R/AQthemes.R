@@ -46,55 +46,55 @@ hello <- function() {
 
 
 # Aquaya palettes
-#' This is a binary Good/Bad color palette
-#' @export
-aq_color_good_bad <- c("#009969", "#D7191D")
 
 #' @export
-aq_color_good_bad_lighter <- c("#A6D96A", "#FAA51A")
+aq_color_good_bad <- c("Good" = "#009969", "Bad" = "#D7191D")
 
 #' @export
-aq_color_e.coli <- c("#D7191D", "#FAA51A", "#FFF140", "#A6D96A", "#009969")
-
+aq_color_good_bad_lighter <- c("Lighter Good" = "#A6D96A", "Lighter Bad" = "#FAA51A")
 
 #' @export
-aq_color_qualitative <- c("#0a5b80", "#FAA51A", "#8cd4e6", "#009a69", "#44546a", "#954f72")
+aq_color_e.coli <- c("High Risk" = "#D7191D", "Moderate Risk" = "#FAA51A", "Low Risk" = "#FFF140", "Very Low Risk" = "#A6D96A", "Safe" = "#009969")
+
+#' @export
+aq_color_qualitative <- c("Dark Blue" = "#0a5b80", "Orange" = "#FAA51A", "Light Blue" = "#8cd4e6", "Green" = "#009a69", "Gray" = "#44546a", "Purple" = "#954f72")
 
 # Divergent
 
 #' @export
-aq_color_divergent_1 <- c("#0a5b80", "#678aa4", "#acbcca", "#f1f1f1", "#d1e7ed", "#b0deea", "#8cd4e6")
+aq_color_divergent_1 <- c("Dark Blue" = "#0a5b80", "Medium Blue" = "#678aa4", "Light Blue" = "#acbcca", "White" = "#f1f1f1", "Light Cyan" = "#d1e7ed", "Medium Cyan" = "#b0deea", "Bright Cyan" = "#8cd4e6")
 
 #' @export
-aq_color_divergent_2 <- c("#0a5b80", "#678aa4", "#acbcca", "#f1f1f1", "#fcd7ae", "#ffbe6c", "#faa51a")
+aq_color_divergent_2 <- c("Dark Blue" = "#0a5b80", "Medium Blue" = "#678aa4", "Light Blue" = "#acbcca", "White" = "#f1f1f1", "Light Orange" = "#fcd7ae", "Medium Orange" = "#ffbe6c", "Bright Orange" = "#faa51a")
 
 #' @export
-aq_color_divergent_3 <- c("#8cd4e6", "#b0deea", "#d1e7ed", "#f1f1f1", "#fcd7ae", "#ffbe6c", "#faa51a")
+aq_color_divergent_3 <- c("Bright Cyan" = "#8cd4e6", "Medium Cyan" = "#b0deea", "Light Cyan" = "#d1e7ed", "White" = "#f1f1f1", "Light Orange" = "#fcd7ae", "Medium Orange" = "#ffbe6c", "Bright Orange" = "#faa51a")
 
 #' @export
-aq_color_divergent_3 <- c("#0a5b80", "#00728d", "#008785", "#009969", "#5ca614", "#abac13", "#faa51a")
+aq_color_divergent_3 <- c("Dark Blue" = "#0a5b80", "Teal" = "#00728d", "Medium Green" = "#008785", "Green" = "#009969", "Lime Green" = "#5ca614", "Yellow Green" = "#abac13", "Bright Orange" = "#faa51a")
 
 
-## Sequential
-
-#' @export
-aq_color_sequential_1 <- c("#0a5b80", "#347194", "#5287a9", "#6e9ebe", "#89b6d3", "#a5cee9", "#c1e7ff")
+# Sequential
 
 #' @export
-aq_color_sequential_1 <- c("#0a5b80", "#256e91", "#3a82a2", "#4e96b3", "#62aac4", "#77bfd5", "#8cd4e6")
+aq_color_sequential_1 <- c("Dark Blue" = "#0a5b80", "Blue" = "#347194", "Light Blue" = "#5287a9", "Cyan" = "#6e9ebe", "Light Cyan" = "#89b6d3", "Very Light Cyan" = "#a5cee9", "Pale Cyan" = "#c1e7ff")
+
+#' @export
+aq_color_sequential_1 <- c("Dark Blue" = "#0a5b80", "Blue" = "#256e91", "Teal Blue" = "#3a82a2", "Cyan" = "#4e96b3", "Light Cyan" = "#62aac4", "Very Light Cyan" = "#77bfd5", "Pale Cyan" = "#8cd4e6")
 
 
 ###########################################
 
 # USAID palettes
-#' @export
-usaid_color_good_bad <- c("#A7C6ED", "#BA0C2F")
 
 #' @export
-usaid_color_good_bad_lighter <- c("#CDDBEF", "#E18D89")
+usaid_color_good_bad <- c("Light Blue" = "#A7C6ED", "Dark Red" = "#BA0C2F")
 
 #' @export
-usaid_color_e.coli <- c("#BA0C2F", "#E18D89", "#E8E7E3", "#CDDBEF", "#A7C6ED")
+usaid_color_good_bad_lighter <- c("Lighter Blue" = "#CDDBEF", "Lighter Red" = "#E18D89")
+
+#' @export
+usaid_color_e.coli <- c("Dark Red" = "#BA0C2F", "Light Red" = "#E18D89", "Gray" = "#E8E7E3", "Lighter Blue" = "#CDDBEF", "Light Blue" = "#A7C6ED")
 
 
 
