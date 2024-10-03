@@ -46,6 +46,7 @@ hello <- function() {
 
 
 # Aquaya palettes
+#' This is a binary Good/Bad color palette
 #' @export
 aq_color_good_bad <- c("#009969", "#D7191D")
 
