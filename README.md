@@ -4,7 +4,7 @@ This package provides themes to be used for Aquaya projects.
 
 ## Installation
 
-\<Installation instructions here weee\>
+\<TODO: Installation instructions here\>
 
 ## Color Palettes
 
@@ -12,6 +12,5 @@ This package provides themes to be used for Aquaya projects.
 -   `aq_color_good_bad_lighter`
 
 ``` r
-# insert R code here
+# TODO: insert example usage code here
 ```
-
