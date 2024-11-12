@@ -2,7 +2,6 @@
 ## R THEMES FOR AQUAYA ##
 ######################################################
 
-
 #' @title AQ_themes
 #'
 #' @description
@@ -13,10 +12,6 @@
 # TODO (REMOVE): DPB: only be done once, outside the package code - I think
 # TODO (REMOVE): DPB: this is what was leading to the infinite Document loop!
 # devtools::document()
-
-
-
-
 
 # Check for CRAN specific requirements using rhub and save it in the results
 # objects
@@ -32,8 +27,6 @@
 # TODO: DPB: are CRAN-specific, if we're using github packaging?
 # results$cran_summary()
 
-
-
 # Some useful keyboard shortcuts for package authoring:
 #
 #   Install Package:           'Cmd + Shift + B'
@@ -43,7 +36,6 @@
 hello <- function() {
   print("Hello, world!")
 }
-
 
 # Aquaya palettes
 
@@ -95,7 +87,6 @@ usaid_color_good_bad_lighter <- c("Lighter Blue" = "#CDDBEF", "Lighter Red" = "#
 
 #' @export
 usaid_color_e.coli <- c("Dark Red" = "#BA0C2F", "Light Red" = "#E18D89", "Gray" = "#E8E7E3", "Lighter Blue" = "#CDDBEF", "Light Blue" = "#A7C6ED")
-
 
 
 # TODO (REMOVE): DPB: These are commands used to set up the package for
