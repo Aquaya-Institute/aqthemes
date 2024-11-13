@@ -43,6 +43,9 @@ hello <- function() {
 aq_color_good_bad <- c("Good" = "#009969", "Bad" = "#D7191D")
 
 #' @export
+aq_color_good_bad_neutral <- c("Good" = "#009969", "Bad" = "#D7191D", "Neutral" = "#EEEEEE")
+
+#' @export
 aq_color_good_bad_lighter <- c("Lighter Good" = "#A6D96A", "Lighter Bad" = "#FAA51A")
 
 #' @export
